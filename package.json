@@ -8,6 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "lint-css": "stylelint src/**/*.css",
+    "prettier": "prettier --write src/**/*.{js,ts,css}",
     "e2e": "ng e2e"
   },
   "private": true,
@@ -42,11 +43,16 @@
     "karma-jasmine": "~2.0.1",
     "karma-jasmine-html-reporter": "^1.4.2",
     "lint-staged": "^10.0.8",
+    "prettier": "^1.19.1",
     "protractor": "~5.4.3",
     "stylelint": "^13.2.0",
+    "stylelint-config-prettier": "^8.0.1",
     "stylelint-config-standard": "^20.0.0",
+    "stylelint-prettier": "^1.1.2",
     "ts-node": "~8.3.0",
     "tslint": "~5.18.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.1.0",
     "typescript": "~3.7.5"
   }
 }
